@@ -42,4 +42,12 @@ public class StringData : ScriptableObject
             Value = obj;
         }
     }
+
+    public void addValue(string obj)
+    {
+        if (obj != null)
+        {
+            Value = Value + obj;
+        }
+    }
 }
