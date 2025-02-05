@@ -8,6 +8,7 @@ public class clicked_test : MonoBehaviour
     string tagTaken;
     void Update()
     {
+
         if (Input.touchCount > 0 && !wasClicked)
         {
             Touch touch = Input.GetTouch(0);
