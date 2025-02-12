@@ -8,7 +8,7 @@ public class PlayerMovement3 : MonoBehaviour
     private PlayerInput playerInput;
     private Vector3 playerVelocity;
     private bool groundedPlayer;
-    private float playerSpeed = 2.0f;
+    private float playerSpeed = 0.1f;
     private float jumpHeight = 1.0f;
     private float gravityValue = -9.81f;
     private void Start()
@@ -26,7 +26,8 @@ public class PlayerMovement3 : MonoBehaviour
         }
 
         Vector2 input = playerInput.actions["Move"].ReadValue<Vector2>();
-        Vector3 move = new Vector3(input.x, 0, input.y);
+        //Debug.Log(input);
+        Vector3 move = new Vector3(input.x * playerSpeed, 0, input.y * playerSpeed);
 
         if (move != Vector3.zero)
         {
@@ -41,6 +42,6 @@ public class PlayerMovement3 : MonoBehaviour
       ///  }
 
         playerVelocity.y += gravityValue * Time.deltaTime;
-        controller.Move(playerVelocity * Time.deltaTime);
+        controller.Move(move + playerVelocity * Time.deltaTime);
     }
 }
