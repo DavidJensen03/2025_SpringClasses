@@ -7,8 +7,7 @@ public class test : MonoBehaviour
     public intData curScreen;
     
 
-    public UnityEvent onTimeout, addEvent, subEvent;
-    public float timeoutDuration = 2f;
+    public UnityEvent onTimeout, addEvent, subEvent, startEvent;
     private bool keyPressed = false;
 
     private Coroutine timeoutCoroutine;
@@ -16,7 +15,8 @@ public class test : MonoBehaviour
 
     private void Start()
     {
-        TimeoutObj = new WaitForSeconds(timeoutDuration);
+        startEvent.Invoke();
+        TimeoutObj = new WaitForSeconds(.02f);
     }
     private IEnumerator WaitForTimeout()
     {
@@ -25,7 +25,7 @@ public class test : MonoBehaviour
 
         if (keyPressed)
         {
-            Debug.Log("Start");
+            //Debug.Log("Start");
             onTimeout.Invoke();
         }
 

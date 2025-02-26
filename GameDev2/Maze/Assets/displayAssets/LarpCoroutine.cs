@@ -25,7 +25,6 @@ public class LarpCoroutine : MonoBehaviour
             t = t * t * (5f - 2f * t);
             transform.position = Vector3.Lerp(startPosition, targetPosition.transform.position, t);
             time += Time.deltaTime;
-            Debug.Log("larpDebug");
             yield return null;
         }
         transform.position = targetPosition.transform.position;
