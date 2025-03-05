@@ -1,0 +1,11 @@
+# ninja log v5
+60	682	7628044514670259	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	9be74c6e8fcb2e9e
+685	1296	7628044518791284	C:/Users/david/Documents/Classes/2025_SpringClasses/GameDev2/maze2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/3d68692m/obj/arm64-v8a/libswappywrapper.so	5fb6cdeb9f896184
+40	1844	7628044526299466	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	686d0ac43163c35b
+16	1884	7628044526720401	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	6fcdc54101f64a28
+24	1929	7628044527112356	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	a99f9c294d0438c3
+48	2013	7628044528103104	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	29b8296ba817bedc
+9	2094	7628044528857604	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	1b812e989db295d7
+31	2275	7628044530763421	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	4b6a5da4ba34e1c7
+1	2365	7628044531723282	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	41e8a57412c0de4
+2366	2531	7628044532949488	C:/Users/david/Documents/Classes/2025_SpringClasses/GameDev2/maze2/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/3d68692m/obj/arm64-v8a/libgame.so	ae96d75a8a25b1

@@ -1,0 +1,17 @@
+# This file uses centimeters as units for non-parametric coordinates.
+
+mtllib poz1.mtl
+g default
+v -0.000129 -0.003747 -0.008011
+v 0.002409 -0.003747 0.008011
+v -0.002409 0.003747 0.003368
+vt 0.725000 0.500000
+vt 0.750000 0.500000
+vt 0.500000 1.000000
+vn 0.869773 0.473831 -0.137761
+vn 0.869773 0.473831 -0.137761
+vn 0.869773 0.473831 -0.137761
+s off
+g pCone1
+usemtl initialShadingGroup
+f 2/1/1 1/2/2 3/3/3
