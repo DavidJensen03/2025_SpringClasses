@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2298678305544590029}
   - component: {fileID: 3016697230391746541}
   - component: {fileID: 8644479987717541686}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -129,7 +129,7 @@ GameObject:
   - component: {fileID: 1729802296472737040}
   - component: {fileID: 2475467128235305073}
   - component: {fileID: 6700668818913808720}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: wallTestObj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -236,7 +236,7 @@ GameObject:
   - component: {fileID: 3232621525980613760}
   - component: {fileID: 1442845379504514069}
   - component: {fileID: 3394572217733465885}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BottomSpawnPoint
   m_TagString: spawnPoint
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
@@ -271,6 +271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openingDirection: 2
+  isStart: 0
   spawned: 0
 --- !u!65 &1442845379504514069
 BoxCollider:
@@ -332,7 +333,7 @@ GameObject:
   - component: {fileID: 5884802397795147128}
   - component: {fileID: 3565946124819294059}
   - component: {fileID: 8326790007092689392}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: leftDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -440,7 +441,7 @@ GameObject:
   - component: {fileID: 8168421374356323887}
   - component: {fileID: 3287661093098315987}
   - component: {fileID: 8848994812922838677}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: bottomDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -548,7 +549,7 @@ GameObject:
   - component: {fileID: 6081466184519464457}
   - component: {fileID: 6161465633255079413}
   - component: {fileID: 4955209221379552103}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: wallTestObj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -655,7 +656,7 @@ GameObject:
   - component: {fileID: 5665491769862061604}
   - component: {fileID: 6099887692250658353}
   - component: {fileID: 3043001667883521369}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: rightDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -763,7 +764,7 @@ GameObject:
   - component: {fileID: 5436067131967242231}
   - component: {fileID: 8906669637686604315}
   - component: {fileID: 4899568238640752149}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: wallTestObj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -870,7 +871,7 @@ GameObject:
   - component: {fileID: 214761001154891064}
   - component: {fileID: 3142330063144040749}
   - component: {fileID: 8776128432971712579}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: topDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -978,7 +979,7 @@ GameObject:
   - component: {fileID: 7132867395090091813}
   - component: {fileID: 594765842542885111}
   - component: {fileID: 8931352869077648609}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: wallTestObj
   m_TagString: Untagged
   m_Icon: {fileID: 0}

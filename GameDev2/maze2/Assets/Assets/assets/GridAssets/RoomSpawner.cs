@@ -11,25 +11,62 @@ public class RoomSpawner : MonoBehaviour
     //3 left
     //4 right
     private int rand;
+    public bool isStart = false;
 
     private RoomTemplates templates;
     public bool spawned = false;
-    private void Start()
+    private WaitForSeconds WaitSecObject;
+
+    public void OnTriggerEnter(Collider other)
     {
-        templates = GameObject.FindGameObjectWithTag("Rooms").GetComponent<RoomTemplates>();
-        Invoke("spawn", 2.00f);
+        //spawned = true; 
+        //Debug.Log(other);
+        if (other.CompareTag("Finish"))
+        {
+            isStart = true;
+            //Debug.Log("d");
+            Destroy(gameObject);
+        }
+
+        if (other.CompareTag("spawnPoint"))
+        {
+            
+            if (other.GetComponent<RoomSpawner>().spawned == false && spawned == false && !isStart) 
+            {
+                Instantiate(templates.closedRooms[0], transform.position, Quaternion.identity);
+            }
+            
+            spawned = true;
+            Destroy(gameObject);
+
+        }
     }
 
+    private void Start()
+    {
+        WaitSecObject = new WaitForSeconds(0.01f);
+        templates = GameObject.FindGameObjectWithTag("Rooms").GetComponent<RoomTemplates>();
+        StartCoroutine(RepeatingTelFalse());
+    }
+
+
+    IEnumerator RepeatingTelFalse()
+    {
+            yield return WaitSecObject;
+            spawn();
+    }
     private void spawn()
     {
         if (spawned == false)
         {
-            if (openingDirection == 1)
+            //Debug.Log("created");
+            
+            if (openingDirection == 2)
             {
                 rand = Random.Range(0, templates.bottomRooms.Length);
                 Instantiate(templates.bottomRooms[rand], transform.position, templates.bottomRooms[rand].transform.rotation);
             }
-            else if (openingDirection == 2)
+            else if (openingDirection == 1)
             {
                 rand = Random.Range(0, templates.topRooms.Length);
                 Instantiate(templates.topRooms[rand], transform.position, templates.topRooms[rand].transform.rotation);
@@ -47,16 +84,13 @@ public class RoomSpawner : MonoBehaviour
                 Instantiate(templates.rightRooms[rand], transform.position, templates.rightRooms[rand].transform.rotation);
             }
             spawned = true;
+            
+
+            
+
         }
        
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("spawnPoint") && other.GetComponent<RoomSpawner>().spawned == true)
-        {
-            Debug.Log("THere");
-            GetComponent<RoomSpawner>().enabled = false;
-        }
-    }
+
 }

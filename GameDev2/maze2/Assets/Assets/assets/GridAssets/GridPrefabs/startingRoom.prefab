@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1297552194935477565}
   - component: {fileID: 2621934305757002489}
   - component: {fileID: 3755250278304364567}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: rightDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120,7 +120,7 @@ GameObject:
   - component: {fileID: 8677388893651788556}
   - component: {fileID: 2859132908723083802}
   - component: {fileID: 8385224692852707434}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: TopSpawnPoint
   m_TagString: spawnPoint
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
@@ -155,6 +155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openingDirection: 1
+  isStart: 0
   spawned: 0
 --- !u!65 &2859132908723083802
 BoxCollider:
@@ -216,7 +217,7 @@ GameObject:
   - component: {fileID: 4181526370805229217}
   - component: {fileID: 2606320617778874086}
   - component: {fileID: 423274292285999245}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BottomSpawnPoint
   m_TagString: spawnPoint
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
@@ -251,6 +252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openingDirection: 2
+  isStart: 0
   spawned: 0
 --- !u!65 &2606320617778874086
 BoxCollider:
@@ -312,7 +314,7 @@ GameObject:
   - component: {fileID: 6893547594779584405}
   - component: {fileID: 1037222333259419444}
   - component: {fileID: 2343536130133635581}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: bottomDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -419,7 +421,7 @@ GameObject:
   - component: {fileID: 6990657817560985208}
   - component: {fileID: 349698365996625921}
   - component: {fileID: 6687318165786796543}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: middleSpawnPoint
   m_TagString: spawnPoint
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
@@ -501,7 +503,7 @@ GameObject:
   - component: {fileID: 6957745205476396138}
   - component: {fileID: 2913325884085073164}
   - component: {fileID: 6074565075974032511}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: wallTestObj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -608,7 +610,7 @@ GameObject:
   - component: {fileID: 7149177075563066197}
   - component: {fileID: 6644252260169253261}
   - component: {fileID: 2125511068880435205}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: leftDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -716,7 +718,7 @@ GameObject:
   - component: {fileID: 4631663700058227737}
   - component: {fileID: 6986362170362997464}
   - component: {fileID: 2002699884725936515}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: startingRoom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -837,7 +839,7 @@ GameObject:
   - component: {fileID: 6830464162681574951}
   - component: {fileID: 9150944764767754481}
   - component: {fileID: 1442665866279950015}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: wallTestObj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -944,7 +946,7 @@ GameObject:
   - component: {fileID: 9059152637813946107}
   - component: {fileID: 4071382486502558094}
   - component: {fileID: 6710500064612294576}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: LeftSpawnPoint
   m_TagString: spawnPoint
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
@@ -979,6 +981,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openingDirection: 3
+  isStart: 0
   spawned: 0
 --- !u!65 &4071382486502558094
 BoxCollider:
@@ -1040,7 +1043,7 @@ GameObject:
   - component: {fileID: 7581285957537883133}
   - component: {fileID: 7186259232595701532}
   - component: {fileID: 5641246484084889078}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: wallTestObj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1147,7 +1150,7 @@ GameObject:
   - component: {fileID: 8599289886454667013}
   - component: {fileID: 5254397428332195621}
   - component: {fileID: 100448995682400130}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: wallTestObj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1254,7 +1257,7 @@ GameObject:
   - component: {fileID: 4695717206982301686}
   - component: {fileID: 8858949918901573960}
   - component: {fileID: 2515888837436668189}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RightSpawnPoint
   m_TagString: spawnPoint
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
@@ -1289,6 +1292,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   openingDirection: 4
+  isStart: 0
   spawned: 0
 --- !u!65 &8858949918901573960
 BoxCollider:
@@ -1350,7 +1354,7 @@ GameObject:
   - component: {fileID: 7588057437040369982}
   - component: {fileID: 4931268846829389455}
   - component: {fileID: 1004153656074370713}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: topDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
