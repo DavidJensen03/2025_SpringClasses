@@ -44,7 +44,7 @@ public class RoomSpawner : MonoBehaviour
 
     private void Start()
     {
-        WaitSecObject = new WaitForSeconds(0.01f);
+        WaitSecObject = new WaitForSeconds(.08f);
         templates = GameObject.FindGameObjectWithTag("Rooms").GetComponent<RoomTemplates>();
         StartCoroutine(RepeatingTelFalse());
     }
