@@ -1,6 +1,6 @@
 //Maya ASCII 2025ff03 scene
-//Name: bot_model11.ma
-//Last modified: Thu, Apr 10, 2025 12:34:17 PM
+//Name: bot_model12.ma
+//Last modified: Thu, Apr 10, 2025 12:38:10 PM
 //Codeset: 1252
 requires maya "2025ff03";
 requires "stereoCamera" "10.0";
@@ -12,19 +12,19 @@ fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202407121012-8ed02f4c99";
 fileInfo "osv" "Windows 10 Home v2009 (Build: 19045)";
-fileInfo "UUID" "8A85A86F-471F-950A-02F4-249F76A961AF";
+fileInfo "UUID" "34CAC0D2-4719-080D-A8E3-0E82E553B2C9";
 createNode transform -s -n "persp";
 	rename -uid "EBB779B0-44CB-7CFD-F701-378E7642E03F";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 3.0790212468437468 22.247552708269573 30.360369878019359 ;
-	setAttr ".r" -type "double3" -19.538352723229053 -724.59999999991362 -9.9713523173420274e-17 ;
+	setAttr ".t" -type "double3" 1.0772049383399172 9.2763906773027482 21.82526789658526 ;
+	setAttr ".r" -type "double3" 0.8616472767712009 -724.19999999984998 6.2287483076756204e-18 ;
 	setAttr ".rp" -type "double3" 0 -4.4408920985006262e-16 0 ;
 	setAttr ".rpt" -type "double3" -1.9001113671653646e-15 -1.1080931111936547e-15 4.5561621913187384e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "EC9C5DC4-41EA-2F94-8363-38AE44DE07EA";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 34.770089210586129;
+	setAttr ".coi" 24.076182056420482;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -104835,4 +104835,4 @@ connectAttr "groupId175.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId182.msg" ":defaultLastHiddenSet.gn" -na;
 connectAttr "Hip_GeoShapeShape.iog.og[7]" ":defaultLastHiddenSet.dsm" -na;
 connectAttr "ikRPsolver.msg" ":ikSystem.sol" -na;
-// End of bot_model11.ma
+// End of bot_model12.ma
