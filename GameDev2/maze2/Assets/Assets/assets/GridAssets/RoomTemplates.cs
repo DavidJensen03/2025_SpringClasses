@@ -29,7 +29,7 @@ public class RoomTemplates : MonoBehaviour
                 {
                     if (i == rooms.Count - 1)
                     {
-                        if (rooms[i].name == "closedRooms(Clone)")
+                        if (rooms[i].name == "closedRooms(Clone)" || rooms[i].name == "R(Clone)" )
                         {
                             Instantiate(Target, rooms[i - 1].transform.position, Quaternion.identity);
                             spawedTarget = true;

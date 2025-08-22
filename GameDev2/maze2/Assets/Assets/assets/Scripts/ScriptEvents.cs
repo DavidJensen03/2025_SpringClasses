@@ -14,6 +14,7 @@ public class ScriptEvents : MonoBehaviour
         if ((curNumber.Value.Length <= 3 || AllowedtoWrite) && !isNob)
         {
             TriggerEvent.Invoke();
+            
         }
         else if (isNob)
         {

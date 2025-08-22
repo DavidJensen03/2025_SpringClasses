@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7145155758424948917}
   - component: {fileID: 9081387536252040235}
   - component: {fileID: 1320807981663182507}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: codeHolderTX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -181,7 +181,7 @@ GameObject:
   - component: {fileID: 6049308828566679985}
   - component: {fileID: 5615351296322106888}
   - component: {fileID: 7081757320374109507}
-  m_Layer: 5
+  m_Layer: 8
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -359,6 +359,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: AntannaTable
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f6c32b6c32aad484ebf0d3b76d70d9e8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: f6c32b6c32aad484ebf0d3b76d70d9e8,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -375,6 +385,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 6617774316542042740}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f6c32b6c32aad484ebf0d3b76d70d9e8,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1493926988677751546}
   m_SourcePrefab: {fileID: 100100000, guid: f6c32b6c32aad484ebf0d3b76d70d9e8, type: 3}
 --- !u!1 &2413045572666821228 stripped
 GameObject:
@@ -402,7 +416,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1.22, y: 16.86, z: 2.16}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 14.3, z: 0}
 --- !u!114 &6617774316542042740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -416,6 +430,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   writtenGoalCord: {fileID: 11400000, guid: 080a28ad3c442b64b833918e177f1d7e, type: 2}
+--- !u!54 &1493926988677751546
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2413045572666821228}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 0
+  m_ImplicitTensor: 0
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!4 &3041913839807549654 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f6c32b6c32aad484ebf0d3b76d70d9e8,

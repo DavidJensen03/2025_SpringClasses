@@ -164,11 +164,23 @@ MonoBehaviour:
           m_StringArgument: 0
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 65414144}
+        m_TargetAssemblyTypeName: AnimsEventsHandler, Assembly-CSharp
+        m_MethodName: buttomPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 0
+          m_BoolArgument: 0
+        m_CallState: 2
   AllowedtoWrite: 0
   curNumber: {fileID: 11400000, guid: 995d7935f58e94a4bb04d25aba355fb3, type: 2}
   curScreen: {fileID: 0}
   isNob: 0
-  isAdding: 1
+  isAdding: 0
 --- !u!65 &65414140
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -190,6 +202,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.53545606, y: 0.32350305, z: 0.53545594}
   m_Center: {x: 1.0413051, y: 0.115118474, z: 0.923669}
+--- !u!114 &65414144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65414135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26550d782692e994e935a929090486b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rSpacing: {x: 0, y: -0.04, z: 0}
 --- !u!1 &113403800
 GameObject:
   m_ObjectHideFlags: 0
@@ -328,7 +353,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 108.9, y: 55}
+  m_AnchoredPosition: {x: 108.9, y: -203.99997}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &157986838
@@ -615,6 +640,18 @@ MonoBehaviour:
           m_StringArgument: 9
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 205479927}
+        m_TargetAssemblyTypeName: AnimsEventsHandler, Assembly-CSharp
+        m_MethodName: buttomPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 9
+          m_BoolArgument: 0
+        m_CallState: 2
   AllowedtoWrite: 0
   curNumber: {fileID: 11400000, guid: 995d7935f58e94a4bb04d25aba355fb3, type: 2}
   curScreen: {fileID: 0}
@@ -641,6 +678,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.53545606, y: 0.32350305, z: 0.53545594}
   m_Center: {x: 1.0413051, y: 0.11511844, z: 2.356175}
+--- !u!114 &205479927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205479918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26550d782692e994e935a929090486b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rSpacing: {x: 0, y: -0.04, z: 0}
 --- !u!1 &240147765
 GameObject:
   m_ObjectHideFlags: 0
@@ -717,6 +767,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 252222528}
+        m_TargetAssemblyTypeName: AnimsEventsHandler, Assembly-CSharp
+        m_MethodName: buttomPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   AllowedtoWrite: 1
   curNumber: {fileID: 11400000, guid: 995d7935f58e94a4bb04d25aba355fb3, type: 2}
   curScreen: {fileID: 0}
@@ -743,6 +805,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.535456, y: 0.32350305, z: 0.53545594}
   m_Center: {x: 0.576084, y: 0.115118474, z: 0.923669}
+--- !u!114 &252222528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252222519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26550d782692e994e935a929090486b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rSpacing: {x: 0, y: -0.04, z: 0}
 --- !u!1 &391249545
 GameObject:
   m_ObjectHideFlags: 0
@@ -808,7 +883,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -25.8, y: -30.2}
+  m_AnchoredPosition: {x: -25.8, y: 43.199993}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &429042775
@@ -911,6 +986,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 429042773}
   m_CullTransparentMesh: 1
+--- !u!1 &451699905
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 451699907}
+  - component: {fileID: 451699906}
+  m_Layer: 0
+  m_Name: SOScarmbler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &451699906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451699905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1976ca2f140bbf44fb30613a967cbb31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CodeSO: {fileID: 11400000, guid: 97df95362c77627478c08687629fbace, type: 2}
+  GoalCordNumSO: {fileID: 11400000, guid: 08d145c10be32bf42aec401f87d05388, type: 2}
+  CurCordNumSO: {fileID: 11400000, guid: bc4de558b20f7c44690cb0fdf442e92a, type: 2}
+--- !u!4 &451699907
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451699905}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.6141343, y: 1.5092943, z: 9.184977}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &652054015 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2522042282856325832, guid: 50cecbda31b4c394ab9efc3341164477,
@@ -956,6 +1078,18 @@ MonoBehaviour:
           m_StringArgument: 5
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 652054024}
+        m_TargetAssemblyTypeName: AnimsEventsHandler, Assembly-CSharp
+        m_MethodName: buttomPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 5
+          m_BoolArgument: 0
+        m_CallState: 2
   AllowedtoWrite: 0
   curNumber: {fileID: 11400000, guid: 995d7935f58e94a4bb04d25aba355fb3, type: 2}
   curScreen: {fileID: 0}
@@ -982,6 +1116,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.535456, y: 0.32350305, z: 0.535455}
   m_Center: {x: 0.56859004, y: 0.115118444, z: 1.8857235}
+--- !u!114 &652054024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652054015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26550d782692e994e935a929090486b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rSpacing: {x: 0, y: -0.04, z: 0}
 --- !u!1 &658303993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1124,7 +1271,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 108.9, y: -29.9}
+  m_AnchoredPosition: {x: 108.9, y: 43.499992}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &722053402
@@ -1366,6 +1513,18 @@ MonoBehaviour:
           m_StringArgument: 8
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 797824351}
+        m_TargetAssemblyTypeName: AnimsEventsHandler, Assembly-CSharp
+        m_MethodName: buttomPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 8
+          m_BoolArgument: 0
+        m_CallState: 2
   AllowedtoWrite: 0
   curNumber: {fileID: 11400000, guid: 995d7935f58e94a4bb04d25aba355fb3, type: 2}
   curScreen: {fileID: 0}
@@ -1392,6 +1551,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.53545606, y: 0.32350305, z: 0.535455}
   m_Center: {x: 1.0413051, y: 0.115118444, z: 1.8857235}
+--- !u!114 &797824351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797824342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26550d782692e994e935a929090486b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rSpacing: {x: 0, y: -0.04, z: 0}
 --- !u!1 &859991423
 GameObject:
   m_ObjectHideFlags: 0
@@ -1401,7 +1573,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 859991425}
-  - component: {fileID: 859991424}
+  - component: {fileID: 859991427}
+  - component: {fileID: 859991426}
+  - component: {fileID: 859991428}
   m_Layer: 0
   m_Name: deviseHolder
   m_TagString: Button
@@ -1409,7 +1583,55 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &859991424
+--- !u!4 &859991425
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859991423}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.10564546, z: -0, w: 0.9944039}
+  m_LocalPosition: {x: 1.19, y: 2.84, z: -12.21}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2072797252}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 12.129, z: 0}
+--- !u!114 &859991426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859991423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 323cddc823c0fe746aa0eca6f4046e55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TriggerEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 859991428}
+        m_TargetAssemblyTypeName: AnimsEventsHandler, Assembly-CSharp
+        m_MethodName: moveUp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  AllowedtoWrite: 0
+  curNumber: {fileID: 11400000, guid: 995d7935f58e94a4bb04d25aba355fb3, type: 2}
+  curScreen: {fileID: 11400000, guid: 3562b37585748f14abe95b004a36f5f0, type: 2}
+  isNob: 1
+  isAdding: 0
+--- !u!65 &859991427
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1428,24 +1650,21 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.65, y: 0.5, z: 0.67}
-  m_Center: {x: 0, y: -0.19, z: 0}
---- !u!4 &859991425
-Transform:
+  m_Size: {x: 2.25, y: 0.61, z: 1.07}
+  m_Center: {x: 0, y: -0.18, z: 0}
+--- !u!114 &859991428
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 859991423}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2072797252}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26550d782692e994e935a929090486b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rSpacing: {x: -180, y: 0, z: 0}
 --- !u!1 &864312626
 GameObject:
   m_ObjectHideFlags: 0
@@ -1730,6 +1949,18 @@ MonoBehaviour:
           m_StringArgument: 1
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 985408733}
+        m_TargetAssemblyTypeName: AnimsEventsHandler, Assembly-CSharp
+        m_MethodName: buttomPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 1
+          m_BoolArgument: 0
+        m_CallState: 2
   AllowedtoWrite: 0
   curNumber: {fileID: 11400000, guid: 995d7935f58e94a4bb04d25aba355fb3, type: 2}
   curScreen: {fileID: 0}
@@ -1756,6 +1987,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.535456, y: 0.32350305, z: 0.53545594}
   m_Center: {x: 0.083065, y: 0.11511846, z: 1.402861}
+--- !u!114 &985408733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 985408724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26550d782692e994e935a929090486b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rSpacing: {x: 0, y: -0.04, z: 0}
 --- !u!1 &1002183012
 GameObject:
   m_ObjectHideFlags: 0
@@ -1846,7 +2090,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 8323
+  m_text: 0000
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b942fc086d0456e40a993c85a2e2eefe, type: 2}
   m_sharedMaterial: {fileID: -8033637851069442910, guid: b942fc086d0456e40a993c85a2e2eefe,
@@ -2053,7 +2297,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -24.6, y: 91}
+  m_AnchoredPosition: {x: -24.6, y: -168}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1070931979
@@ -2803,7 +3047,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -25.8, y: 54.7}
+  m_AnchoredPosition: {x: -25.8, y: -204.29999}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1290577024
@@ -2940,7 +3184,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -21.6, y: 8.6}
+  m_AnchoredPosition: {x: -21.6, y: 82}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1298244105
@@ -3354,6 +3598,18 @@ MonoBehaviour:
           m_StringArgument: 6
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1349220412}
+        m_TargetAssemblyTypeName: AnimsEventsHandler, Assembly-CSharp
+        m_MethodName: buttomPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 6
+          m_BoolArgument: 0
+        m_CallState: 2
   AllowedtoWrite: 0
   curNumber: {fileID: 11400000, guid: 995d7935f58e94a4bb04d25aba355fb3, type: 2}
   curScreen: {fileID: 0}
@@ -3380,6 +3636,133 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.535456, y: 0.32350305, z: 0.53545594}
   m_Center: {x: 0.56859004, y: 0.11511844, z: 2.356175}
+--- !u!114 &1349220412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349220403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26550d782692e994e935a929090486b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rSpacing: {x: 0, y: -0.04, z: 0}
+--- !u!1 &1383531384 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -5485376013320752928, guid: 50cecbda31b4c394ab9efc3341164477,
+    type: 3}
+  m_PrefabInstance: {fileID: 1789701941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1383531388
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383531384}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.129017, y: 0.32350302, z: 0.53545594}
+  m_Center: {x: -0.19316049, y: 0.1151185, z: 0.923669}
+--- !u!114 &1383531389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383531384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5612a8d1b7b3fde4496ab6aa5abf7663, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  curNumbers: {fileID: 11400000, guid: 995d7935f58e94a4bb04d25aba355fb3, type: 2}
+  curCode: {fileID: 11400000, guid: 97df95362c77627478c08687629fbace, type: 2}
+  goalNumbers: {fileID: 11400000, guid: 08d145c10be32bf42aec401f87d05388, type: 2}
+  matchEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 481ead6a1f657624eae922db3edc6f4e, type: 2}
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: loadNewScene
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1383531390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383531384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 323cddc823c0fe746aa0eca6f4046e55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TriggerEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1383531389}
+        m_TargetAssemblyTypeName: comparePhoneNumbers, Assembly-CSharp
+        m_MethodName: CompareCodes
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1383531391}
+        m_TargetAssemblyTypeName: AnimsEventsHandler, Assembly-CSharp
+        m_MethodName: buttomPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  AllowedtoWrite: 1
+  curNumber: {fileID: 11400000, guid: 995d7935f58e94a4bb04d25aba355fb3, type: 2}
+  curScreen: {fileID: 11400000, guid: 3562b37585748f14abe95b004a36f5f0, type: 2}
+  isNob: 0
+  isAdding: 1
+--- !u!114 &1383531391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1383531384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26550d782692e994e935a929090486b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rSpacing: {x: 0, y: -0.04, z: 0}
 --- !u!1 &1464414076
 GameObject:
   m_ObjectHideFlags: 0
@@ -3521,7 +3904,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Time left tell death
+  m_text: 'insert code then #:
+
+
+    * to erase'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b942fc086d0456e40a993c85a2e2eefe, type: 2}
   m_sharedMaterial: {fileID: -8033637851069442910, guid: b942fc086d0456e40a993c85a2e2eefe,
@@ -3646,6 +4032,18 @@ MonoBehaviour:
           m_StringArgument: 7
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1680809405}
+        m_TargetAssemblyTypeName: AnimsEventsHandler, Assembly-CSharp
+        m_MethodName: buttomPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 7
+          m_BoolArgument: 0
+        m_CallState: 2
   AllowedtoWrite: 0
   curNumber: {fileID: 11400000, guid: 995d7935f58e94a4bb04d25aba355fb3, type: 2}
   curScreen: {fileID: 0}
@@ -3672,6 +4070,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.53545606, y: 0.32350305, z: 0.53545594}
   m_Center: {x: 1.0413051, y: 0.11511846, z: 1.402861}
+--- !u!114 &1680809405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680809396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26550d782692e994e935a929090486b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rSpacing: {x: 0, y: -0.04, z: 0}
 --- !u!1 &1740364567 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6114649054007419446, guid: 50cecbda31b4c394ab9efc3341164477,
@@ -3717,6 +4128,18 @@ MonoBehaviour:
           m_StringArgument: 4
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1740364576}
+        m_TargetAssemblyTypeName: AnimsEventsHandler, Assembly-CSharp
+        m_MethodName: buttomPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 4
+          m_BoolArgument: 0
+        m_CallState: 2
   AllowedtoWrite: 0
   curNumber: {fileID: 11400000, guid: 995d7935f58e94a4bb04d25aba355fb3, type: 2}
   curScreen: {fileID: 0}
@@ -3743,6 +4166,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.535456, y: 0.32350305, z: 0.53545594}
   m_Center: {x: 0.56859004, y: 0.11511846, z: 1.402861}
+--- !u!114 &1740364576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740364567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26550d782692e994e935a929090486b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rSpacing: {x: 0, y: -0.04, z: 0}
 --- !u!1 &1775153233
 GameObject:
   m_ObjectHideFlags: 0
@@ -3923,6 +4359,11 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 48e4249da2604394dbc85f17590d04b3, type: 2}
+    - target: {fileID: -5485376013320752928, guid: 50cecbda31b4c394ab9efc3341164477,
+        type: 3}
+      propertyPath: m_Name
+      value: button_Yes
+      objectReference: {fileID: 0}
     - target: {fileID: -5485376013320752928, guid: 50cecbda31b4c394ab9efc3341164477,
         type: 3}
       propertyPath: m_TagString
@@ -4114,6 +4555,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 65414139}
+    - targetCorrespondingSourceObject: {fileID: -5302138104134042419, guid: 50cecbda31b4c394ab9efc3341164477,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 65414144}
     - targetCorrespondingSourceObject: {fileID: 3720819749479176958, guid: 50cecbda31b4c394ab9efc3341164477,
         type: 3}
       insertIndex: 2
@@ -4122,6 +4567,10 @@ PrefabInstance:
         type: 3}
       insertIndex: 3
       addedObject: {fileID: 985408728}
+    - targetCorrespondingSourceObject: {fileID: 3720819749479176958, guid: 50cecbda31b4c394ab9efc3341164477,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 985408733}
     - targetCorrespondingSourceObject: {fileID: 7007354760200216106, guid: 50cecbda31b4c394ab9efc3341164477,
         type: 3}
       insertIndex: -1
@@ -4130,6 +4579,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1883565402}
+    - targetCorrespondingSourceObject: {fileID: 7007354760200216106, guid: 50cecbda31b4c394ab9efc3341164477,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1883565407}
     - targetCorrespondingSourceObject: {fileID: 6302371351459219865, guid: 50cecbda31b4c394ab9efc3341164477,
         type: 3}
       insertIndex: -1
@@ -4138,6 +4591,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 2070264045}
+    - targetCorrespondingSourceObject: {fileID: 6302371351459219865, guid: 50cecbda31b4c394ab9efc3341164477,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2070264050}
     - targetCorrespondingSourceObject: {fileID: 6114649054007419446, guid: 50cecbda31b4c394ab9efc3341164477,
         type: 3}
       insertIndex: -1
@@ -4146,6 +4603,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1740364571}
+    - targetCorrespondingSourceObject: {fileID: 6114649054007419446, guid: 50cecbda31b4c394ab9efc3341164477,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1740364576}
     - targetCorrespondingSourceObject: {fileID: -2522042282856325832, guid: 50cecbda31b4c394ab9efc3341164477,
         type: 3}
       insertIndex: -1
@@ -4154,6 +4615,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 652054019}
+    - targetCorrespondingSourceObject: {fileID: -2522042282856325832, guid: 50cecbda31b4c394ab9efc3341164477,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 652054024}
     - targetCorrespondingSourceObject: {fileID: 1647950383233157577, guid: 50cecbda31b4c394ab9efc3341164477,
         type: 3}
       insertIndex: -1
@@ -4162,6 +4627,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1349220407}
+    - targetCorrespondingSourceObject: {fileID: 1647950383233157577, guid: 50cecbda31b4c394ab9efc3341164477,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1349220412}
     - targetCorrespondingSourceObject: {fileID: -6695647253589075864, guid: 50cecbda31b4c394ab9efc3341164477,
         type: 3}
       insertIndex: -1
@@ -4170,6 +4639,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1680809401}
+    - targetCorrespondingSourceObject: {fileID: -6695647253589075864, guid: 50cecbda31b4c394ab9efc3341164477,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1680809405}
     - targetCorrespondingSourceObject: {fileID: -5988954944730373439, guid: 50cecbda31b4c394ab9efc3341164477,
         type: 3}
       insertIndex: -1
@@ -4178,6 +4651,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 797824347}
+    - targetCorrespondingSourceObject: {fileID: -5988954944730373439, guid: 50cecbda31b4c394ab9efc3341164477,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 797824351}
     - targetCorrespondingSourceObject: {fileID: -1436841948791256908, guid: 50cecbda31b4c394ab9efc3341164477,
         type: 3}
       insertIndex: -1
@@ -4186,6 +4663,26 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 205479923}
+    - targetCorrespondingSourceObject: {fileID: -1436841948791256908, guid: 50cecbda31b4c394ab9efc3341164477,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 205479927}
+    - targetCorrespondingSourceObject: {fileID: -5485376013320752928, guid: 50cecbda31b4c394ab9efc3341164477,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1383531388}
+    - targetCorrespondingSourceObject: {fileID: -5485376013320752928, guid: 50cecbda31b4c394ab9efc3341164477,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1383531390}
+    - targetCorrespondingSourceObject: {fileID: -5485376013320752928, guid: 50cecbda31b4c394ab9efc3341164477,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1383531389}
+    - targetCorrespondingSourceObject: {fileID: -5485376013320752928, guid: 50cecbda31b4c394ab9efc3341164477,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1383531391}
     - targetCorrespondingSourceObject: {fileID: -4742743331279753958, guid: 50cecbda31b4c394ab9efc3341164477,
         type: 3}
       insertIndex: -1
@@ -4194,6 +4691,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 252222523}
+    - targetCorrespondingSourceObject: {fileID: -4742743331279753958, guid: 50cecbda31b4c394ab9efc3341164477,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 252222528}
   m_SourcePrefab: {fileID: 100100000, guid: 50cecbda31b4c394ab9efc3341164477, type: 3}
 --- !u!1 &1796523347
 GameObject:
@@ -4378,6 +4879,18 @@ MonoBehaviour:
           m_StringArgument: 2
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1883565407}
+        m_TargetAssemblyTypeName: AnimsEventsHandler, Assembly-CSharp
+        m_MethodName: buttomPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 2
+          m_BoolArgument: 0
+        m_CallState: 2
   AllowedtoWrite: 0
   curNumber: {fileID: 11400000, guid: 995d7935f58e94a4bb04d25aba355fb3, type: 2}
   curScreen: {fileID: 0}
@@ -4404,6 +4917,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.535456, y: 0.32350305, z: 0.535455}
   m_Center: {x: 0.083065, y: 0.115118444, z: 1.8857235}
+--- !u!114 &1883565407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883565398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26550d782692e994e935a929090486b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rSpacing: {x: 0, y: -0.04, z: 0}
 --- !u!1 &1971561561
 GameObject:
   m_ObjectHideFlags: 0
@@ -4563,6 +5089,18 @@ MonoBehaviour:
           m_StringArgument: 3
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2070264050}
+        m_TargetAssemblyTypeName: AnimsEventsHandler, Assembly-CSharp
+        m_MethodName: buttomPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 3
+          m_BoolArgument: 0
+        m_CallState: 2
   AllowedtoWrite: 0
   curNumber: {fileID: 11400000, guid: 995d7935f58e94a4bb04d25aba355fb3, type: 2}
   curScreen: {fileID: 0}
@@ -4589,6 +5127,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.535456, y: 0.32350305, z: 0.53545594}
   m_Center: {x: 0.083065, y: 0.11511844, z: 2.356175}
+--- !u!114 &2070264050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2070264041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26550d782692e994e935a929090486b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rSpacing: {x: 0, y: -0.04, z: 0}
 --- !u!4 &2072797252 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 50cecbda31b4c394ab9efc3341164477,
@@ -4612,3 +5163,4 @@ SceneRoots:
   - {fileID: 1775153234}
   - {fileID: 1971561563}
   - {fileID: 859991425}
+  - {fileID: 451699907}
